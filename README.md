@@ -30,4 +30,3 @@ CCNA LAB 문제를 기반으로 IPv4·IPv6 주소 설정, VLAN·Trunk, LACP Ethe
 ## 링크
 
 
-- [Notion 상세 포트폴리오](https://www.notion.so/3e47b3feab6f815e98dcee36839953a0)
