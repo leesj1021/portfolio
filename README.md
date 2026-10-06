@@ -1,32 +1,29 @@
-# 이승준 | Backend Developer
+# 이승준 | 인프라 엔지니어 포트폴리오
 
-문제를 구조적으로 분석하고, 구현과 문서화를 함께 완성하는 개발자를 지향합니다.
+서버와 네트워크의 동작을 이해하고, 문제의 원인을 단계별로 확인하는 인프라 엔지니어를 준비하고 있습니다.  
+Linux 서버 구성, 네트워크 통신 구현, 패킷 분석을 실습하며 학습한 내용을 정리합니다.
 
-Java와 Spring Boot를 중심으로 웹 애플리케이션 개발을 공부하고 있습니다. 기능 구현뿐 아니라 데이터 구조와 처리 흐름을 이해하고, 기술을 선택한 이유와 문제 해결 과정을 기록하는 데 관심이 있습니다.
+## 기술 및 도구
 
-## 관심 분야
+- **서버·가상화:** Ubuntu, Linux, VirtualBox, VMware, OpenSSH, Nginx
+- **네트워크·분석:** TCP/IP, UDP, ARP, Wireshark, tcpdump
+- **프로그래밍:** Python
 
-- Java와 Spring Boot 기반 백엔드 개발
-- 관계형 데이터베이스 설계와 데이터 무결성
-- 인증·인가와 예외 처리
+## 주요 프로젝트
 
-## 기술 스택
+### 1. Ubuntu 서버 구축
+VirtualBox에 Ubuntu 서버를 설치하고 SSH 원격 접속과 Nginx 웹 서비스를 구성했습니다. NAT 포트 포워딩을 설정하고, HTTP 응답과 접속 로그 확인 및 서비스 중지·복구를 실습했습니다.
 
-| 분야 | 기술 |
-|---|---|
-| Language | Java, Python, SQL |
-| Backend | Spring Boot, Spring Data JPA, Spring Security |
-| Frontend | React, TypeScript, HTML, CSS |
-| Database | MySQL, H2 |
-| Tools | Git, GitHub, Gradle |
+### 2. Python UDP 통신
+Python으로 UDP 에코 서버와 클라이언트를 구현하고 왕복시간(RTT)을 측정했습니다. 타임아웃과 서버 종료 시 발생하는 수신 오류를 구분하여 예외 처리를 보완했습니다.
 
-## 개발할 때 중요하게 생각하는 것
+### 3. TCP 연결·패킷 분석
+netstat과 Wireshark로 웹사이트 접속 전후의 TCP 연결 상태와 3-way handshake를 분석했습니다. IP와 포트 조합을 기준으로 연결을 추적하며 상태 변화를 확인했습니다.
 
-- 요구사항을 구체화하고 데이터와 기능의 관계를 먼저 이해합니다.
-- 정상 동작뿐 아니라 예외 상황과 반복 요청도 고려합니다.
-- 오류의 원인과 해결 과정을 기록합니다.
-- 구현 내용과 문서가 일치하도록 관리합니다.
+### 4. ARP 스푸핑 분석
+수업용 가상머신 환경에서 실제 IP·MAC 주소와 위조 ARP 응답을 비교했습니다. tcpdump와 전달 로그를 통해 중간 노드의 트래픽을 관찰했습니다.
 
-## GitHub
+## 링크
 
-[github.com/leesj1021](https://github.com/leesj1021)
+- [GitHub](https://github.com/leesj1021)
+- [Notion 상세 포트폴리오](https://www.notion.so/3e47b3feab6f815e98dcee36839953a0)
